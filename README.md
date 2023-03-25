@@ -14,7 +14,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world
 
     * [x] 整数
 
-    * [ ] 反復、繰り返し
+    * [x] 反復、繰り返し
 
     * [ ] 配列とスライス
 
