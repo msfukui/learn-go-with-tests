@@ -16,7 +16,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world
 
     * [x] 反復、繰り返し
 
-    * [ ] 配列とスライス
+    * [x] 配列とスライス
 
     * [ ] 構造体、メソッド、インタフェース
 
