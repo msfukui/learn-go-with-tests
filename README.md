@@ -18,7 +18,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world
 
     * [x] 配列とスライス
 
-    * [ ] 構造体、メソッド、インタフェース
+    * [x] 構造体、メソッド、インタフェース
 
     * [ ] ポインタとエラー
 
