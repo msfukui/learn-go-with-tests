@@ -20,7 +20,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world
 
     * [x] 構造体、メソッド、インタフェース
 
-    * [ ] ポインタとエラー
+    * [x] ポインタとエラー
 
     * [ ] マップ
 
