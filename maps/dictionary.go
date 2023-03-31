@@ -1,7 +1,13 @@
 package maps
 
+import "errors"
+
 type Dictionary map[string]string
 
-func Search(dictionary Dictionary, word string) string {
-	return dictionary[word]
+func (d Dictionary) Search(word string) (string, error) {
+	definition, ok := d[word]
+	if !ok {
+		return "", errors.New("指定された単語を見つけることができませんでした")
+	}
+	return definition, nil
 }
