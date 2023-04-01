@@ -10,22 +10,26 @@ func TestSearch(t *testing.T) {
 		got, _ := dictionary.Search("テスト")
 		want := "これがテストだ!"
 
-		AssertStrings(t, got, want)
+		assertStrings(t, got, want)
 	})
 
 	t.Run("unknown word", func(t *testing.T) {
 		_, err := dictionary.Search("unknown")
-		want := "指定された単語を見つけることができませんでした"
+		want := ErrNotFound
 
-		if err == nil {
-			t.Fatal("expected to get an error")
-		}
-
-		AssertStrings(t, err.Error(), want)
+		assertError(t, err, want)
 	})
 }
 
-func AssertStrings(t *testing.T, got, want string) {
+func assertStrings(t *testing.T, got, want string) {
+	t.Helper()
+
+	if got != want {
+		t.Errorf("got %q want %q", got, want)
+	}
+}
+
+func assertError(t *testing.T, got, want error) {
 	t.Helper()
 
 	if got != want {
