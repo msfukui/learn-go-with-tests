@@ -21,6 +21,21 @@ func TestSearch(t *testing.T) {
 	})
 }
 
+func TestAdd(t *testing.T) {
+
+	dictionary := Dictionary{}
+	dictionary.Add("テスト", "これがテストだ!")
+
+	got, err := dictionary.Search("テスト")
+	want := "これがテストだ!"
+
+	if err != nil {
+		t.Fatal("should find added word:", err)
+	}
+
+	assertStrings(t, got, want)
+}
+
 func assertStrings(t *testing.T, got, want string) {
 	t.Helper()
 
