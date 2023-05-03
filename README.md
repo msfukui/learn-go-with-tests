@@ -22,7 +22,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/
 
     * [x] ポインタとエラー
 
-    * [ ] マップ
+    * [x] マップ
 
     * [ ] 依存性注入
 
