@@ -1,8 +1,9 @@
 package main
 
 import (
-	"di"
 	"os"
+
+	"learn-go-with-tests/di/di"
 )
 
 func main() {

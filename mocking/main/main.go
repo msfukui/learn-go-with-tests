@@ -1,9 +1,10 @@
 package main
 
 import (
-	"mocking"
 	"os"
 	"time"
+
+	"learn-go-with-tests/mocking/mocking"
 )
 
 func main() {

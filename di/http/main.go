@@ -1,8 +1,9 @@
 package main
 
 import (
-	"di"
 	"net/http"
+
+	"learn-go-with-tests/di/di"
 )
 
 func MyGreeterHundler(w http.ResponseWriter, r *http.Request) {
