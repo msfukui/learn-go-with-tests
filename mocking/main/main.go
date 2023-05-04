@@ -6,13 +6,7 @@ import (
 	"time"
 )
 
-type DefaultSleeper struct{}
-
-func (d *DefaultSleeper) Sleep() {
-	time.Sleep(1 * time.Second)
-}
-
 func main() {
-	sleeper := &DefaultSleeper{}
+	sleeper := &mocking.ConfigurableSleeper{MyDuration: 1 * time.Second, MySleep: time.Sleep}
 	mocking.Countdown(os.Stdout, sleeper)
 }

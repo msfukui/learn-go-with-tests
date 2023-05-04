@@ -3,10 +3,20 @@ package mocking
 import (
 	"fmt"
 	"io"
+	"time"
 )
 
 type Sleeper interface {
 	Sleep()
+}
+
+type ConfigurableSleeper struct {
+	MyDuration time.Duration
+	MySleep    func(time.Duration)
+}
+
+func (c *ConfigurableSleeper) Sleep() {
+	c.MySleep(c.MyDuration)
 }
 
 const finalWord = "Go!"
