@@ -28,7 +28,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/
 
     * [x] スタブ、モック
 
-    * [ ] 並行性
+    * [x] 並行性
 
     * [ ] 選択
 
