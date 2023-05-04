@@ -24,7 +24,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/
 
     * [x] マップ
 
-    * [ ] 依存性注入
+    * [x] 依存性注入
 
     * [ ] スタブ、モック
 
