@@ -26,7 +26,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/
 
     * [x] 依存性注入
 
-    * [ ] スタブ、モック
+    * [x] スタブ、モック
 
     * [ ] 並行性
 
