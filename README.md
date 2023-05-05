@@ -87,3 +87,15 @@ https://andmorefine.gitbook.io/learn-go-with-tests/
 * Go コードレビューコメント
 
     https://github.com/golang/go/wiki/CodeReviewComments
+
+* When to Mock | The Clean Code Blog
+
+    https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html
+
+    mocking の章に出てきたボブおじさんのモックの使いどころのアドバイス的なもの
+
+* The Little Mocker | The Clean Code Blog
+
+    https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html
+
+    mocking の章に出てきたボブおじさんのテストダブルに関する網羅的で簡潔な解説
