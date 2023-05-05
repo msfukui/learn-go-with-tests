@@ -30,7 +30,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/
 
     * [x] 並行性
 
-    * [ ] 選択
+    * [x] 選択
 
     * [ ] リフレクション
 
