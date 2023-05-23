@@ -32,7 +32,7 @@ https://andmorefine.gitbook.io/learn-go-with-tests/
 
     * [x] 選択
 
-    * [ ] リフレクション
+    * [x] リフレクション
 
     * [ ] 同期
 
